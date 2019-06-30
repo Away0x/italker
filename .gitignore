@@ -17,6 +17,6 @@
 /.idea
 /.vscode
 
-/server/storage/fresh_tmp
-/server/storage/logs
-/server/config.yaml
+server/storage/fresh_tmp
+server/storage/logs
+server/config.yaml
