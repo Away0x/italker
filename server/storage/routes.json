@@ -1,0 +1,10 @@
+{
+  "count": 1,
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/api/account/login",
+      "name": "api.account.login"
+    }
+  ]
+}
