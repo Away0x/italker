@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- 头像 drawable 名字 -->
+    <item name="default_portrait" type="drawable" />
+
+    <!--recycler 封装的 tag 属性-->
     <item name="tag_recycler_holder" type="id" />
 </resources>
