@@ -72,13 +72,14 @@
     <!--浮动按钮-->
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/btn_action"
-        android:layout_width="@dimen/len_52"
-        android:layout_height="@dimen/len_52"
+        android:layout_width="@dimen/len_56"
+        android:layout_height="@dimen/len_56"
         android:layout_marginBottom="@dimen/len_68"
         android:layout_marginEnd="@dimen/len_16"
         android:padding="@dimen/len_20"
         android:src="@drawable/ic_group_add"
         android:tint="@color/white"
+        android:translationY="@dimen/len_76"
         app:gBackgroundColor="@color/colorAccent"
         app:layout_anchor="@id/lay_container"
         app:layout_anchorGravity="bottom|end" />
