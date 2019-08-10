@@ -1,8 +1,10 @@
 package net.away0x.italker.push;
 
+import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.FloatingActionButton;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -17,6 +19,7 @@ import com.bumptech.glide.request.target.ViewTarget;
 
 import net.away0x.italker.common.app.Activity;
 import net.away0x.italker.common.app.widget.PortraitView;
+import net.away0x.italker.push.activities.AccountActivity;
 import net.away0x.italker.push.frags.main.ActiveFragment;
 import net.away0x.italker.push.frags.main.ContactFragment;
 import net.away0x.italker.push.frags.main.GroupFragment;
@@ -97,11 +100,12 @@ public class MainActivity extends Activity
 
     @OnClick(R.id.im_search)
     void onSearchMenuClick() {
-
     }
 
     @OnClick(R.id.btn_action)
-    void onActionClick() {}
+    void onActionClick() {
+        AccountActivity.show(this);
+    }
 
     /**
      * 当我们的底部导航被点击的时候触发

@@ -1,3 +1,4 @@
+// 图片选择显示框架
 package net.away0x.italker.common.app.widget;
 
 import android.content.Context;

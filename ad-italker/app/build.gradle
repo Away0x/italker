@@ -39,4 +39,8 @@ dependencies {
     implementation "de.hdodenhof:circleimageview:$rootProject.ext.circleimageviewVersion"
     // 图片加载框架
     implementation "com.github.bumptech.glide:glide:$rootProject.ext.glideVersion"
+    // permission
+    implementation "pub.devrel:easypermissions:$rootProject.ext.easyPMVersion"
+    // 图片剪切
+    implementation "com.yalantis:ucrop:$rootProject.ext.ucropVersion"
 }
